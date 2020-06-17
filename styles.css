@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+
+}
+
+body {
+	margin-left: : 10px;
+	/*text-align: center;*/
+	font-family: "Montserrat", sans-serif;
+}
+
+p{
+	display: inline-block;
+}
+
+
+header{
+	/*position: absolute; */
+	margin-top: 1em;
+	background-image: url("/img/nav_bg.png");
+	background-size: 100% auto;
+}
+
+nav ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+nav a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+	padding:5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+nav a:hover, .button:hover{
+	padding: 8px;
+	background-color: #d4cecd;
+}
+
+
+
+.contact-me ul {
+	list-style: none;
+	text-align: center;
+}
+
+.contact-me li {
+	display: inline-block;
+}
+
+ .contact-me ul li img {
+ 	width: 50px;
+	height: auto;
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
+	transition: 0.5s;
+ }
+
+ .contact-me ul li img:hover{
+ 	width: 55px;
+ 	height: auto;
+ }
+
+.about-me {
+	padding-bottom: 10px
+	font-size: 2vw;
+
+}
+
+.about-me h1{
+	font-style: italic;
+}
+
+
+.profile-pic {
+	display: block;
+	float: right;
+	max-width: 30%;
+	margin-right: 15px;
+	height: auto;
+	border: solid black 2px;
+	border-radius: 100%;
+}
+
+.about-me-description{
+	font-size: 2vw;
+	max-width: 50px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.portfolio-button{
+	font-size: 2vw;
+
+}
+
+
+
+
+.button {
+	text-decoration: none;
+	font-size: 1.3vw;
+	color: black;
+	padding:3px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	transition: 0.5s;
+}
+
+
+#para{
+	font-size: 1.5vw;
+	padding: 10px;
+}
+
+
+
+footer{
+	background-image: url("/img/nav_bg.png");
+	padding: 30px;
+	background-size: 100% auto;
+	position: relative;
+	bottom: 2;
+	left: 0;
+	width: 100%;
+	margin-top: auto;
+}
