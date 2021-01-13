@@ -1,66 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width", initial-scale=1>
-<title>My Website</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/b3fb94dec6.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet">
+	<title>Portfolio | Miika Salminen</title>
 </head>
-
-
 <body>
-	
-<header>
-	<img src="/img/welcome.png" alt="Tervetuloa!" class="tervetuloa">
-	<nav>
-		<ul>
-			<li><a href="">KOTI</a></li>
-			<li><a href="portfolio.html">PORTFOLIO</a></li>
-			<li><a href="projects.html">PROJEKTIT</a></li>
-			<li><a href="contact.html">OTA YHTEYTTÄ</a></li>
-		</ul>
-	</nav>
+<ul class="nav-bar">
 
-</header>
+ <li class ="nav-item-left">
+    <a class="nav-text">Miika Salminen</a>
+  </li>
+  <li class="nav-item-right">
+    <a class="nav-link" href="#contact">Contact</a>
+  </li>
+  <li class="nav-item-right">
+    <a class="nav-link" href="#projects">Projects</a>
+  </li>
+   <li class="nav-item-right">
+    <a class="nav-link" href="#home">Home</a>
+  </li>
+</ul>
+<div id = "home">
+<br><br><br>
+<h1>Welcome</h1>
+<h2>to my Portfolio!</h2>
+<br>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<br><br>
+<div class="about">
+<p>I'm <a style = "color: #15f4ee;">Miika Salminen</a>, currently studying computer science in Åbo University in <a style = "color: #15f4ee;">Turku</a>, Finland.
+<br><br>
+ I have a burning passion for learning, tech and self improvement. I take my work seriously and I'm always eager to learn as I go.</p>
+</div>
+<br><br>
+ <dl class="skills-list">
+  <dt class="skill">Python
+  <i class="fab fa-python"></i></dt>
+  <dd class="skill-specific">Basic knowledge</dd>
+  <dd class="skill-specific">Beginner in Django framework</dd>
+  <dt class="skill">Web
+  <i class="fas fa-code"></i></dt>
+  <dd class="skill-specific">Basic knowledge in HTML, CSS & JS</dd>
+  <dd class="skill-specific">Novice knowledge in mySQL and SQLite</dd>
+  <dt class="skill">Java
+  <i class="fab fa-java"></i></dt>
+  <dd class="skill-specific">Basic knowledge in Java</dd>
+  <dd class="skill-specific">Most school work is done in Java</dd>
+  <dt class="skill">Some skill
+  <i class="fas fa-question"></i></dt>
+  <dd class="skill-specific">Some knowledge in something</dd>
+  <dd class="skill-specific">Something more specific about this skill</dd>
+</dl>
 
-<section class="about-me">
-	<h1>Tehdään yhdessä pienestä, jotain suurta.</h1>
-	<p1 class="about-me-description"><img src="/img/profile.png" class="profile-pic">
-		Hei! Tervetuloa sivulleni.<span id="para"> <br> <br>
-		Nimeni on Miika Salminen. Olen 20 vuotias aloitteleva ohjelmoija. Ylläpidän tätä sivustoa itse, ja tulen lataamaan tänne tulevaisuuden projektejani sekä päivittämään portfolioani ajan myötä.</span> <br><br> Kuka olen? <br><br><span id="para">Olen nuori ohjelmoijan alku alunperin kotoisin Alavetelistä, mutta asustelen nykyään Turussa. Tietokoneet ja tietotekniikka ylipäätään on ollut aina suuri kiinnostuksen kohde minulle, siksipä päätin lähteä luomaan siittä uraa. Opiskelen tällä hetkellä Åbo Akademissa tietojenkäsittelytiedettä ja valmistun odotetusti vuonna 2025. Harrastuksiini kuuluu ohjelmointi, videopelit sekä pyöräily.</span></p1>
-	
-	<br>
-	<br>
+</div>
 
-	<section class="portfolio-button">
+<div id = "projects">
+<br><br>
+<h1>Projects</h1>
+<h2>that i have done!</h2>
+<br>
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<br><br>
+ <dl class="skills-list">
+  <dt class="skill">Visual Sudoku solver
+  <i class="fab fa-python"></i></dt>
+  <dd class="skill-specific">Written in Python</dd>
+  <dd class="skill-specific">Utilises a recursive backtracking algorithm</dd>
+  <img src="https://cdn.discordapp.com/attachments/336622699633967114/787730024836366336/b587c06fd53cc7d21f0b47a6f5263476.gif" width="220">
+  <dt class="skill">Website Design
+  <i class="fas fa-code"></i></dt>
+   <dd class="skill-specific">Written in HTML & CSS</dd>
+  <dd class="skill-specific">A school group project.</dd>
+  <img src="https://cdn.discordapp.com/attachments/336622699633967114/787730024836366336/b587c06fd53cc7d21f0b47a6f5263476.gif" width="220">
+  <dd class="skill-specific"></dd>
+  <dt class="skill">Recipe finder
+  <i class="fab fa-python"></i></dt>
+  <dd class="skill-specific">Written in Python</dd>
+  <dd class="skill-specific">Scrapes recipes from a site to a program, from which you can search for recipes withing range</dd>
+  <img src="https://cdn.discordapp.com/attachments/336622699633967114/787730024836366336/b587c06fd53cc7d21f0b47a6f5263476.gif" width="220">
+  <dt class="skill">Some project
+  <i  class="fas fa-question"></i></dt>
+  <dd class="skill-specific">Written in some language</dd>
+  <dd class="skill-specific">Something more specific about this project</dd>
+  <img src="https://cdn.discordapp.com/attachments/336622699633967114/787730024836366336/b587c06fd53cc7d21f0b47a6f5263476.gif" width="220">
+</dl>
+<br><br>
+</div>
 
-	
-<p2>Voit mielellään vilkaista portfolioani!</p2>
-	<a href="portfolio.html" class="button">Portfolio</a>
-	<br>
-<p3>Tai selata läpi vaiheilla olevia projektejani!</p3>
-	<a href="projects.html" class="button">Projektit</a>
-	<br>
-<p4>Ilmenikö kysymyksiä, palautetta tai muuta?</p4>
-	<a href="contact.html" class="button">Ota yhteyttä</a>
-
-</section>
-</section>
-
-<section class="contact-me">
-
-		<ul>
-			<li><a href="https://instagram.com/miikasalminen_"><img src="/img/ig_icon.png"></a></li>
-			<li><a href="https://twitter.com/spookirs"><img src="/img/linkedin.png"></a></li>
-			<li><a href=""><img src="/img/github_icon.png"></a></li>
-		</ul>
-</section>
-
-
-<footer>
-	<h1></h1>
-</footer>
+<div id = "contact">
+<h1>This is the contact page</h1>
+</div>
 
 </body>
 </html>
