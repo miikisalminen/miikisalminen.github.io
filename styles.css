@@ -1,144 +1,108 @@
 *{
-	box-sizing: border-box;
-
-}
-
-body {
-	margin-left: : 10px;
-	/*text-align: center;*/
-	font-family: "Montserrat", sans-serif;
-}
-
-p{
-	display: inline-block;
-}
-
-
-header{
-	/*position: absolute; */
-	margin-top: 1em;
-	background-image: url("/img/nav_bg.png");
-	background-size: 100% auto;
-}
-
-nav ul {
-	text-align: center;
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 
-nav li {
+body{
+	margin: 0;
+	font-family: 'Jura', sans-serif;
+}
+
+.nav-bar{
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	background-color: #1f1f1f;
+	padding: 10px;
+	height: 35px;
+	opacity: 0.8;
+
+}
+
+.nav-item-right{
+	padding-right: 10px;
+	float: right;
 	display: inline-block;
-	margin: 10px;
+	margin: auto;
 }
 
+.nav-item-left{
+	float: left;
+	display: inline-block;
+	margin: auto;
+}
 
-nav a {
+.nav-link{
+	transition-duration: 0.4s;
+	padding: 10px;
 	text-decoration: none;
-	font-size: 1.5em;
-	color: black;
-	padding:5px;
-	border: 1px solid black;
-	border-radius: 5px;
-	background-color: white;
-	cursor: pointer;
-	transition: 0.5s;
+	font-size: 24px;
+	color: white;
+
 }
 
-nav a:hover, .button:hover{
-	padding: 8px;
-	background-color: #d4cecd;
+.nav-text{
+	padding: 10px;
+	color: white;
+	font-size: 24px;
+}
+
+.nav-link:hover{
+	color: #15f4ee;
 }
 
 
+#home, #projects, #contact{ 
+	background-color: #1f1f1f;
+	color: white;
+	height: 115vh;
+}
 
-.contact-me ul {
-	list-style: none;
+#home h1, #projects h1{
+	font-size: 96px;
+}
+
+#home h2, #projects h2{
+	font-size: 72px;
+}
+
+#home p, #projects p{
+	font-size: 32px;
+}
+
+.about{
 	text-align: center;
 }
 
-.contact-me li {
-	display: inline-block;
-}
 
- .contact-me ul li img {
- 	width: 50px;
-	height: auto;
-	padding: 0;
-	margin: 10px;
-	display: inline-block;
-	transition: 0.5s;
- }
-
- .contact-me ul li img:hover{
- 	width: 55px;
- 	height: auto;
- }
-
-.about-me {
-	padding-bottom: 10px
-	font-size: 2vw;
-
-}
-
-.about-me h1{
-	font-style: italic;
-}
-
-
-.profile-pic {
-	display: block;
-	float: right;
-	max-width: 30%;
-	margin-right: 15px;
-	height: auto;
-	border: solid black 2px;
-	border-radius: 100%;
-}
-
-.about-me-description{
-	font-size: 2vw;
-	max-width: 50px;
-	margin: 20px;
-	padding: 20px;
-}
-
-.portfolio-button{
-	font-size: 2vw;
-
-}
-
-
-
-
-.button {
-	text-decoration: none;
-	font-size: 1.3vw;
-	color: black;
-	padding:3px;
-	border: 1px solid black;
-	border-radius: 5px;
-	background-color: white;
-	transition: 0.5s;
-}
-
-
-#para{
-	font-size: 1.5vw;
-	padding: 10px;
-}
-
-
-
-footer{
-	background-image: url("/img/nav_bg.png");
-	padding: 30px;
-	background-size: 100% auto;
-	position: relative;
-	bottom: 2;
-	left: 0;
+.skills-list{
+	column-count: 2;
+	text-align: center;
 	width: 100%;
-	margin-top: auto;
+	height: auto;
+	background-color: #1f1f1f;
+}
+
+.skill{
+	color: #15f4ee;
+	padding: 10px;
+	font-size: 32px;
+}
+
+.skill-specific{
+
+	color: white;
+	padding: 5px;
+	font-size: 22px;
+}
+
+
+#contact{
+	background-color: blue;
 }
