@@ -8,6 +8,10 @@
 	background: transparent;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 
 body{
 	margin: 0;
@@ -58,21 +62,21 @@ body{
 }
 
 
-#home, #projects, #contact{ 
+#home, #projects, #contact{
 	background-color: #1f1f1f;
 	color: white;
 	height: 115vh;
 }
 
-#home h1, #projects h1{
+#home h1, #projects h1, #contact h1{
 	font-size: 96px;
 }
 
-#home h2, #projects h2{
+#home h2, #projects h2, #contact h2{
 	font-size: 72px;
 }
 
-#home p, #projects p{
+#home p, #projects p, #contact p{
 	font-size: 32px;
 }
 
@@ -100,9 +104,4 @@ body{
 	color: white;
 	padding: 5px;
 	font-size: 22px;
-}
-
-
-#contact{
-	background-color: blue;
 }
